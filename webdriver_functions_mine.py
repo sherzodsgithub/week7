@@ -138,7 +138,7 @@ def click_element_by_xpath(xpath):
     except NoSuchElementException as err:
         print(f"Check element by following xpath: {xpath}")
         print(err)
-        take_screenshot('ErrorClickElement_')
+        # take_screenshot('ErrorClickElement_')
 
 
 def enter_text_by_xpath(xpath, some_text):
@@ -155,6 +155,6 @@ def enter_text_by_xpath(xpath, some_text):
     except WebDriverException as err:
         print(f"Entering Text failed by following xpath: {xpath}")
         print(err)
-        take_screenshot('ErrorEnterText_')
+        # take_screenshot('ErrorEnterText_')
 
 
